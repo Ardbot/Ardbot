@@ -1,11 +1,11 @@
 /* Defaults */
 body {
-  background: #f9f9f9;
+  background: #3a3a3a;
   color: #465665;
 }
 
 a {
-  color: #5b7083;
+  color: #ffffff;
   transition: all .25s ease-in-out;
 }
 
@@ -31,7 +31,8 @@ a {
 /* Intro section */
 .intro {
   margin: 1.75em 0 .75em;
-  border-bottom: 3px double rgba(0, 0, 0, 0.05);
+  border-top: 3px double rgb(39, 39, 39);
+  border-bottom: 3px double rgb(39, 39, 39);
   margin-bottom: 1.75em;
 }
 
@@ -81,7 +82,7 @@ a {
 
 /* Bordered masonry */
 .masonry.bordered {
-  column-rule: 1px solid #eee;
+  column-rule: 1px solid #000000;
   column-gap: 50px;
 }
 
