@@ -30,10 +30,9 @@ a {
 
 /* Intro section */
 .intro {
-  margin: 1.75em 0 .75em;
-  border-top: 3px double rgb(39, 39, 39);
-  border-bottom: 3px double rgb(39, 39, 39);
-  margin-bottom: 1.75em;
+  margin: .25em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+  margin-bottom: .50em;
 }
 
 .intro a {
@@ -59,13 +58,14 @@ a {
 /* Masonry grid */
 .masonry {
   transition: all .5s ease-in-out;
-  column-gap: 30px;
+  column-gap: 15px;
   column-fill: initial;
 }
 
 /* Masonry item */
 .masonry .brick {
-  margin-bottom: 30px;
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+  margin-bottom: 15px;
   display: inline-block; /* Fix the misalignment of items */
   vertical-align: top; /* Keep the item on the very top */
 }
@@ -119,6 +119,6 @@ a {
   }
 
   .masonry {
-    column-count: 3;
+    column-count: 4;
   }
 }
