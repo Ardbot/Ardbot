@@ -164,7 +164,7 @@ html {
 }
 
 .green-sea {
-  background: #16a085;
+  background: rgba(119, 255, 118, 0.25);
 }
 
 .button.green-sea:hover {
@@ -214,7 +214,7 @@ html {
 }
 
 .lab-theme-light body {
-  color: rgba(255, 255, 255, 1.00);
+  color: rgb(255, 255, 255);
 }
 
 .lab-theme-light .lab-nav,
